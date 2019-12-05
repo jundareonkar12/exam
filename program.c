@@ -1,6 +1,20 @@
 #include<stdio.h>
 int main()
 {
-printf("\n hi here onkar from github");
+int a,b,c;
+printf("\n eneter two nos");
+scanf("%d%d",&a,&b);
+printf("\nenter 1 for add");
+printf("\nenter 2 for sub");
+scanf("%d",&c);
+
+if(a==1)
+{
+printf("%d",a+b);
+}
+else
+{
+printf("%d",a-b);
+}
 return 0;
 }
